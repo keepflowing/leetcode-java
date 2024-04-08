@@ -6,8 +6,9 @@ import java.util.stream.Collectors;
 
 public final class Sequence {
     public static int longestConsecutive(int[] nums) {
+        if(nums.length == 0) return 0;
         Set<Integer> set = Arrays.stream(nums).boxed().collect(Collectors.toSet());
-        int longest = 0;
+        int longest = 1;
         for(int x : nums) {
             if(!set.contains(x-1)) {
                 int streak = 1;
