@@ -9,7 +9,7 @@ public final class Sequence {
         if(nums.length == 0) return 0;
         Set<Integer> set = Arrays.stream(nums).boxed().collect(Collectors.toSet());
         int longest = 1;
-        for(int x : nums) {
+        for(int x : set) {
             if(!set.contains(x-1)) {
                 int streak = 1;
                 for(int i = 1; i < nums.length; i++) {
