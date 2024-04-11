@@ -1,4 +1,4 @@
-package n128_longestConsecutiveSequence;
+package n0128_longestconsecutivesequence;
 
 import java.util.Arrays;
 import java.util.Set;

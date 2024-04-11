@@ -1,4 +1,4 @@
-package n1_twoSum;
+package n0001_twosum;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package n36_validSudoku;
+package n0036_validsudoku;
 
 import java.util.Arrays;
 

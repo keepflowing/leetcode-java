@@ -1,4 +1,4 @@
-package n242_validAnagram;
+package n0242_validanagram;
 
 import java.util.Arrays;
 

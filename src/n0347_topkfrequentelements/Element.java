@@ -1,4 +1,4 @@
-package n347_topKFrequentElements;
+package n0347_topkfrequentelements;
 
 import java.util.ArrayList;
 import java.util.HashMap;

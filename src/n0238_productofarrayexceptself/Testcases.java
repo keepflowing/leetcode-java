@@ -1,4 +1,4 @@
-package n238_productOfArrayExceptSelf;
+package n0238_productofarrayexceptself;
 
 import java.util.Arrays;
 

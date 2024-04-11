@@ -1,4 +1,4 @@
-package n217_containsDuplicate;
+package n0217_containsduplicate;
 
 import java.util.Set;
 import java.util.HashSet;

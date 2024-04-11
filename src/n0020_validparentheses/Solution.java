@@ -1,4 +1,4 @@
-package n20_validParentheses;
+package n0020_validparentheses;
 
 import java.util.HashMap;
 import java.util.Stack;

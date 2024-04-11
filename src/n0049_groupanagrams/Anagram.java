@@ -1,4 +1,4 @@
-package n49_groupAnagrams;
+package n0049_groupanagrams;
 
 import java.util.ArrayList;
 import java.util.Arrays;
