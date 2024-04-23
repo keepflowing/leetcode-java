@@ -11,7 +11,7 @@ class TimeMap {
     }
 
     public void set(String key, String value, int timestamp) {
-        if(!hm.containsKey(key)) hm.put(key, new ArrayList<TVPair>());
+        if(!hm.containsKey(key)) hm.put(key, new ArrayList<>());
 
         hm.get(key).add(new TVPair(value, timestamp));
     }
@@ -48,7 +48,7 @@ class TimeMap {
     }
 }
 
-/**
+/*
  * Your TimeMap object will be instantiated and called as such:
  * TimeMap obj = new TimeMap();
  * obj.set(key,value,timestamp);
